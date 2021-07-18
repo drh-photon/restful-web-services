@@ -14,7 +14,7 @@ public class RestfulController {
 	}
 	@GetMapping(path = "/api")
 	public RestfulBean restfulBean() {
-		return new RestfulBean("restful");
+		return new RestfulBean("Restful API: [data]");
 	}
 	@GetMapping(path = "/api/path/{data}")
 	public RestfulBean restfulBeanPV(@PathVariable String data) {
