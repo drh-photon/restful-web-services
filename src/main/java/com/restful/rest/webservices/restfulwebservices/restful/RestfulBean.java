@@ -1,4 +1,4 @@
-package com.restful.rest.webservices.restfulwebservices;
+package com.restful.rest.webservices.restfulwebservices.restful;
 
 public class RestfulBean {
 	private String message;
