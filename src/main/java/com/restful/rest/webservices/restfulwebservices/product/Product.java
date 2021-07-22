@@ -6,7 +6,6 @@ import java.util.List;
 public class Product {
 	private Integer id;
 	private String status;
-	public List<List> list;
 	private Date createdAt;
 	private Date expiresOn;
 	
