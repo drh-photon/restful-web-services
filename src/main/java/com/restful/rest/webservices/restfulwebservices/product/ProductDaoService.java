@@ -15,7 +15,7 @@ public class ProductDaoService {
 		products.add(new Product(2, "inactive", new Date(), new Date()));
 		products.add(new Product(3, "provisional", new Date(), new Date()));
 	}
-
+	
 	public List<Product> findAll() {
 		return products;
 	}
